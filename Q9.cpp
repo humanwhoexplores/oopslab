@@ -17,7 +17,7 @@ matadd :: matadd(int r,int c)
 {
   row = r;
   col = c;
-  a = new int *[row];
+  a = new int* [row];
    for(int i = 0; i < row; i++)
       a[i] = new int[col];
 }
